@@ -1,4 +1,4 @@
-# TM-SNN: Threshold Modulated Spiking Neural Network for Multi-task Learning
+# Improving Spiking Neural Network Performance with Auxiliary Learning
 
 This repository contains code implementation for the paper Cachi PG, Ventura S, Cios KJ. Improving Spiking Neural Network Performance with Auxiliary Learning. Machine Learning and Knowledge Extraction. 2023; 5(3):1010-1022. https://doi.org/10.3390/make5030052. The code implements the use of auxiliary learning for improving training performance of Spiking Neural Networks. Tests are performed on neuromorphic DVS-CIFAR10 and DVS128-Gesture datasets. The results indicate that training with auxiliary learning tasks improves their accuracy, albeit slightly. Different scenarios, including manual and automatic combination losses using implicit differentiation, are explored to analyze the usage of auxiliary tasks.
 
