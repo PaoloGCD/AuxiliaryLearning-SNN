@@ -42,5 +42,4 @@ $ sh ./experiments/cifar10dvs_auto.sh
 
 ## Acknowledgments
 
-* The code is based on [SpikingJelly's classification example](https://spikingjelly.readthedocs.io/zh_CN/latest/activation_based_en/classify_dvsg.html).
-* 
+* The code is based on [SpikingJelly's classification example](https://spikingjelly.readthedocs.io/zh_CN/latest/activation_based_en/classify_dvsg.html). 
