@@ -19,8 +19,6 @@ import torchvision.transforms as torch_transform
 
 
 def main():
-    # python cifar10dvs_single.py -T 20 -device cuda:0 -b 16 -epochs 1024 -data-dir ./datasets/CIFAR10DVS/
-    # -out-dir ./results -amp -cupy -opt adam -lr 0.001 -j 2
 
     parser = argparse.ArgumentParser(description='Classify CIFAR10-DVS')
     parser.add_argument('-T', default=16, type=int, help='simulating time-steps')

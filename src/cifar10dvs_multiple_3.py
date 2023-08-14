@@ -97,8 +97,6 @@ class CIFAR10DVSNet(nn.Module):
 
 
 def main():
-    # python dvsgesture_multiple_2.py -T 16 -device cuda:0 -b 16 -epochs 64 -data-dir ./datasets/DVSGesture/
-    # -out-dir ./results/1/ -amp -cupy -opt adam -lr 0.001 -j 2
 
     parser = argparse.ArgumentParser(description='Classify DVS Gesture')
     parser.add_argument('-T', default=16, type=int, help='simulating time-steps')
